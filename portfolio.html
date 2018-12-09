@@ -2,74 +2,131 @@
 <html lang="en-us">
 
 <head>
-  <meta name="viewport" content="width=600px initial-scale=1">
+  <meta name="viewport" content="width=600px initial-scale=1"> 
   <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
+  <title>About | Your Name</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/front-awesome.min.css" />
 </head>
 
-<body>
+<body class="is-preload" id="body-portfolio" style="height: 1350px; background-image: url('./assets/images/Background-p2.jpeg')">
 
-  <header id="masthead">
+  <header id="masthead" style="background-color:  rgba(8, 8, 8, 0.685); color: white">
     <div class="container">
-      <a href="index.html" id="logo">Anny Huynh</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+      
+      <a href="index.html">
+      <img id="logo-img" src="./assets/images/logo5.png">
+      </a>
+     
+      <nav id="all-nav" style="color: white">
+        <a href="About.html" style="color: white">About</a>
+        <a href="portfolio.html" style="color: white">Portfolio</a>
+        <a href="contact.html" style="color: white">Contact</a>
       </nav>
     </div>
   </header>
 
+  <section class="main-section">
+
   <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/artistic.jpg" alt="artistic">
-
-        <a href ="https://annyhuynh.github.io/Word-Guess-Game/" target="_blank"><h3>Word-Guess-Game</h3></a>
+    <div class="row" style="background-color: rgba(8, 8, 8, 0.685)">
+        <div class="col-3">
+        <img src="assets/images/artistic.jpg" alt="artistic" style="height: 300px; width:300px; margin-left: -15px; margin-bottom: -4px">
+        </div>
+        <div class="col-8" style="margin-left: 60px; font-size: 20px; color: white; line-height: 22px">
+          <h1 style="margin-top: 14px; font-size: 25px; font-weight: bolder">Word-Guess-Game</h1>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vero amet optio commodi sit voluptatem inventore unde maiores mollitia placeat recusandae aliquam eveniet quibusdam harum eligendi, quo reiciendis magnam sed.</p>
+          <br>
+          <a href ="https://annyhuynh.github.io/Word-Guess-Game/" target="_blank" class="btn btn-primary">Go to Word-Guess-Game...</a>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/Crystals.jpeg" alt="Coding">
-
-        <a href ="https://annyhuynh.github.io/Unit-4-Game/" target="_blank"><h3>Crystal Game</h3></a>
+    <div class="row" style="background-color: rgba(8, 8, 8, 0.685); margin-top: 20px">
+      <div class="col-3"> 
+      <img src="assets/images/Crystals.jpeg" alt="Coding" style="height: 300px; width:300px; margin-left: -15px; margin-bottom: -4px">
       </div>
-      <div class="work">
-        <img src="assets/images/mylove.jpg" alt="mylove">
-
-        <a href="https://annyhuynh.github.io/TriviaGame/" target="_blank"><h3>TriviaGame</h3></a>
+      <div class="col-8" style="margin-left: 60px; font-size: 20px; color: white; line-height: 22px">
+        <h1 style="margin-top: 14px; font-size: 25px; font-weight: bolder">Crystals Game</h1>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vero amet optio commodi sit voluptatem inventore unde maiores mollitia placeat recusandae aliquam eveniet quibusdam harum eligendi, quo reiciendis magnam sed.</p>
+        <br>
+        <a href ="https://annyhuynh.github.io/Unit-4-Game/" target="_blank" class="btn btn-primary">Go to Crytals Game...</a>
       </div>
-      <div class="work">
-        <img src="assets/images/WorldMap.jpeg" alt="WorldMap">
+    </div>
 
-        <a href="https://annyhuynh.github.io/GifTastic/"
-        target="_blank"><h3>GifTastic</h3></a>
+    <div class="row" style="background-color: rgba(8, 8, 8, 0.685); margin-top: 20px">
+        <div class="col-3"> 
+        <img src="assets/images/Trivia.jpeg" alt="mylove" style="height: 300px; width:300px; margin-left: -15px; margin-bottom: -4px">
+        </div>
+        <div class="col-8" style="margin-left: 60px; font-size: 20px; color: white; line-height: 22px">
+          <h1 style="margin-top: 14px; font-size: 25px; font-weight: bolder">Trivia Game</h1>
+          <br>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vero amet optio commodi sit voluptatem inventore unde maiores mollitia placeat recusandae aliquam eveniet quibusdam harum eligendi, quo reiciendis magnam sed.</p>
+          <br>
+          <a href="https://annyhuynh.github.io/TriviaGame/" target="_blank" class="btn btn-primary">Go to Trivia Game...</a>
+        </div>
       </div>
 
-      <div class="work">
-        <img src="assets/images/Train.jpeg" alt="Train">
-
-        <a href="https://annyhuynh.github.io/Train-Scheduler/"
-        target="_blank"><h3>Train-Scheduler</h3></a>
+      <div class="row" style="background-color: rgba(8, 8, 8, 0.685); margin-top: 20px">
+          <div class="col-3"> 
+          <img src="assets/images/WorldMap.jpeg" alt="WorldMap" style="height: 300px; width:300px; margin-left: -15px; margin-bottom: -4px">
+          </div>
+          <div class="col-8" style="margin-left: 60px; font-size: 20px; color: white; line-height: 22px">
+            <h1 style="margin-top: 14px; font-size: 25px; font-weight: bolder">Travel-the-World</h1>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vero amet optio commodi sit voluptatem inventore unde maiores mollitia placeat recusandae aliquam eveniet quibusdam harum eligendi, quo reiciendis magnam sed.</p>
+            <br>
+            <a href="https://annyhuynh.github.io/GifTastic/" target="_blank" class="btn btn-primary">Go to Travel-the-World...</a>
+          </div>
       </div>
 
-      <div class="work">
-        <img src="assets/images/film-logo - Copy.jpg" alt="MovieWeb">
-
-        <a href="https://annyhuynh.github.io/Movie-Website/"
-        target="_blank"><h3>Movie-Website</h3></a>
+      <div class="row" style="background-color: rgba(8, 8, 8, 0.685); margin-top: 20px">
+          <div class="col-3"> 
+          <img src="assets/images/Train.jpeg" alt="Train" style="height: 300px; width:300px; margin-left: -15px; margin-bottom: -4px">
+          </div>
+          <div class="col-8" style="margin-left: 60px; font-size: 20px; color: white; line-height: 22px">
+            <h1 style="margin-top: 14px; font-size: 25px; font-weight: bolder">Train Scheduler</h1>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vero amet optio commodi sit voluptatem inventore unde maiores mollitia placeat recusandae aliquam eveniet quibusdam harum eligendi, quo reiciendis magnam sed.</p>
+            <br>
+            <a href="https://annyhuynh.github.io/Train-Scheduler/" target="_blank" class="btn btn-primary">Go to Train Scheduler...</a>
+          </div>
       </div>
+
+      <div class="row" style="background-color: rgba(8, 8, 8, 0.685); margin-top: 20px">
+          <div class="col-3"> 
+          <img src="assets/images/film-logo - Copy.jpg" alt="MovieWeb" style="height: 300px; width:300px; margin-left: -15px; margin-bottom: -4px">
+          </div>
+          <div class="col-8" style="margin-left: 60px; font-size: 20px; color: white; line-height: 22px">
+            <h1 style="margin-top: 14px; font-size: 25px; font-weight: bolder">Movie-Website</h1>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vero amet optio commodi sit voluptatem inventore unde maiores mollitia placeat recusandae aliquam eveniet quibusdam harum eligendi, quo reiciendis magnam sed.</p>
+            <br>
+            <a href="https://annyhuynh.github.io/Movie-Website/"target="_blank" class="btn btn-primary">Go to Movie-Website...</a>
+          </div>
+      </div>
+
+
+    </div>
 
     </section>
 
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
+  <footer id="footer" style="background-color:  rgba(8, 8, 8, 0.685); color: white">
+    <ul class="copyright">
+      <li>&copy; Anny Huynh</li>
+    </ul>
   </footer>
+  </div>
+  
+  <!-- Scripts -->
+  
+  <script src="assets/javascript.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  
 </body>
 
 </html>
