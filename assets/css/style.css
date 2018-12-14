@@ -85,6 +85,12 @@ h3 {
   border: solid 4px yellow;
 }
 
+.main-nav{
+	text-align: right;
+	margin-right: -60px;
+	color:  #5e5757;
+	size: 20px;
+}
 #all-nav {
   float: right;
   margin-top: 30px;
@@ -228,7 +234,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media screen  
+/* @media screen  
   and (max-device-width: 980px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 }
@@ -243,7 +249,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
   and (max-device-width: 640px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
-}
+} */
 
 /*****/
 
@@ -385,7 +391,7 @@ html, body, div, span, applet, object,
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -499,13 +505,13 @@ html, body, div, span, applet, object,
 					border-color: #ff7496;
 				}
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			ul.icons li a:before {
 				font-size: 1.5rem;
-			}
+			} */
 
-		}
+		/* } */
 
 /* Button */
 
@@ -695,7 +701,7 @@ html, body, div, span, applet, object,
       color: white;
     }
 
-  @media screen and (max-width: 480px) {
+  /* /* @media screen and (max-width: 480px) {
 
     #main {
       padding: 4em 2em 2.5em 2em ;
@@ -705,9 +711,9 @@ html, body, div, span, applet, object,
       #main .avatar:before {
         left: -2em;
         width: calc(100% + 4em);
-      }
+      } */
 
-  }
+  
 
   body.is-preload #main {
     -moz-transform: rotateX(15deg);
@@ -735,17 +741,41 @@ html, body, div, span, applet, object,
     display: block;
   }
 
-  @media screen and (max-width: 360px) {
+  /* @media screen and (max-width: 360px) {
 
     #wrapper {
       padding: 0.75em;
-    }
+    } */
 
-  }
+  
 
   body.is-ie #wrapper {
     height: 100%;
-  }
+	}
+
+@media screen  
+  and (max-device-width: 980px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+		.is-preload{
+			width: 100%;
+		}
+}
+
+@media only screen 
+and (max-device-width: 768px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+	.is-preload{
+		width: 100%;
+	}
+}
+@media only screen 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	.is-preload{
+		width: 100%;
+	}
+}
 
 
 
