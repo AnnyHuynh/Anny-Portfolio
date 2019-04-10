@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-email",
+  "version": "1.0.0",
+  "description": "package to manage emails from website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annyhuynh/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annyhuynh/portfolio/issues"
+  },
+  "homepage": "https://github.com/annyhuynh/portfolio#readme",
+  "dependencies": {
+    "emailjs-com": "^2.1.0"
+  }
+}
